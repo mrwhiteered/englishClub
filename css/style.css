@@ -58,6 +58,8 @@ body{
     background: #FFF3E3;
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
   
     
 }
@@ -258,7 +260,8 @@ background: #FFF3E3;
     background-image: url('../img/foto_b_2.png');
    position:relative;
     width: 100vw;
-    height: 80vh;
+    /* height: 80vh; */
+    height: calc(var(--vh, 1vh) * 80);
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
