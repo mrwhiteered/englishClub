@@ -126,18 +126,17 @@ background: #FFF3E3;
     height: 917px;
 }
 
-.about{
-    background-image: url('../img/Group\ 52\ 1.png');
-   position:relative;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: env(safe-area-inert-bottom);
-    
-} 
-
+.about {
+  background-image: url('../img/Group%2052%201.png'); /* заменили \ на %20 или просто убрали пробелы */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100); /* динамическая высота через переменную */
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: -2; /* -1 может скрыть блок под другими */
+}
 
 
 
