@@ -134,6 +134,7 @@ background: #FFF3E3;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: env(safe-area-inert-bottom);
     
 } 
 
