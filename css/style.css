@@ -128,17 +128,17 @@ background: #FFF3E3;
     height: 917px;
 }
 
-.about {
-  background-image: url('../img/Group%2052%201.png'); /* заменили \ на %20 или просто убрали пробелы */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  width: 100vw;
-  height: calc(var(--vh, 1vh) * 100); /* динамическая высота через переменную */
-  padding-bottom: env(safe-area-inset-bottom);
-  z-index: -2; /* -1 может скрыть блок под другими */
-}
+.about{
+    background-image: url('../img/Group\ 52\ 1.png');
+   position:relative;
+    width: 100vw;
+    height: 710vh;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+
 
 
 
@@ -260,8 +260,7 @@ background: #FFF3E3;
     background-image: url('../img/foto_b_2.png');
    position:relative;
     width: 100vw;
-    /* height: 80vh; */
-    height: calc(var(--vh, 1vh) * 80);
+    height: 80vh;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -307,7 +306,7 @@ background: #FFF3E3;
     display: block;
     margin-right: 0;
     margin-left: auto;
-    margin-top: -350px;
+    margin-top: -100px;
    }
 
    .sofia__name{
