@@ -130,7 +130,7 @@ background: #FFF3E3;
     background-image: url('../img/Group\ 52\ 1.png');
    position:relative;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@ background: #FFF3E3;
     display: block;
     margin-right: 0;
     margin-left: auto;
-    margin-top: -100px;
+    margin-top: -350px;
    }
 
    .sofia__name{
