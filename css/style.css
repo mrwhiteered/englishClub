@@ -265,10 +265,10 @@ background: #FFF3E3;
 }
 
 .foto{
-    background-image: url('../img/foto_b_2.png');
+    /* background-image: url('../img/foto_b_2.png'); */
    position:relative;
     width: 100vw;
-    height: 80vh;
+    height: 100%;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,6 +276,14 @@ background: #FFF3E3;
     
     
 } 
+.foto_img{
+  position: absolute;
+        width: 100%;
+        height: 112%;
+        object-fit: cover;
+        margin-top: -10px;
+        z-index: -1;
+}
    .foto_text_1{
     font-family: "Soyuz Grotesk";
     font-size: 32px;
