@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>ENG</title>
     <link href="css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -354,6 +354,15 @@ fill="#E3531F" stroke="none">
         }, { threshold: 0.6 });
       
         observer.observe(document.querySelector('.svg_container'));
+      </script>
+      <script>
+        function setVH() {
+          let vh = window.innerHeight * 0.01;
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+      
+        window.addEventListener('resize', setVH);
+        window.addEventListener('load', setVH);
       </script>
 </body>
 </html>
