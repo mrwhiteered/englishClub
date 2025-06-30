@@ -129,15 +129,23 @@ background: #FFF3E3;
 }
 
 .about{
-    background-image: url('../img/Group\ 52\ 1.png');
+   /* background-image: url('../img/Group\ 52\ 1.png'); */
    position:relative;
     width: 100vw;
-    height: 710vh;
+    min-height: 1100%;
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    box-sizing: border-box;
+    padding-bottom: 100px;
 } 
+.abot_img{
+  position: absolute;
+        width: 100%;
+        height: 117%;
+        object-fit: cover;
+        margin-top: 82px;
+}
 
 
 
