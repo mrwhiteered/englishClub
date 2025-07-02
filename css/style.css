@@ -270,6 +270,9 @@ text-align: center;
   
   align-self: center;
 }
+.wrtt{
+  width: 300px;
+}
 
 .foto{
   /* background-image: url('../img/foto_b_2.png'); */
@@ -754,6 +757,7 @@ position: absolute;
           width: 100%;
           
         }
+.foto_img{}
 
         .table_left{
           position: absolute;
