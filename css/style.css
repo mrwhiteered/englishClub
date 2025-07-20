@@ -38,6 +38,7 @@
      position: fixed;
      width: 100vw;
      filter: drop-shadow(15px 25px 11px #FFF3E3);
+     z-index: 10;
      
 }
 .header_wrap{
