@@ -849,6 +849,35 @@ background: #FFF3E3;
             margin-bottom: 20px;
             line-height: 1.4;
            }
+           .sofia_relation{
+            position: relative;
+           }
+           .hart_foto{
+            width: 100%;
+            position: absolute;
+            right: -127px;
+            z-index: -2;
+            top: 0;
+            opacity: 0.5;
+            transform: rotate(-35deg);
+           }
+           .for_flower{
+            position: relative;
+           }
+           .cirql_unde_son{
+              width: 100%;
+              position: absolute;
+              left: 0;
+              top: -355px;
+             
+           }
+           .footer_item_prelast{
+            margin-bottom: 0;
+           }
+           .footer__item_last{
+            background: transparent;
+            margin-top: 0;
+           }
            .footer__item_btn{
             font-size: 20px;
             font-family: "Soyuz Grotesk";
