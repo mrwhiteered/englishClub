@@ -37,7 +37,7 @@
 .header{
      position: fixed;
      width: 100vw;
-     filter: drop-shadow(15px 22px 11px #FFF3E3);
+     filter: drop-shadow(15px 25px 11px #FFF3E3);
      
 }
 .header_wrap{
@@ -69,7 +69,7 @@ body{
     text-transform: uppercase;
     font-family: "Soyuz Grotesk";
     margin: 2px 25px 4px 25px;
-    font-size: 28px;
+    font-size: 30px;
     max-width: 230px;
     z-index: 1;
    
