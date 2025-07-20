@@ -860,9 +860,11 @@ background: #FFF3E3;
             top: 0;
             opacity: 0.5;
             transform: rotate(-35deg);
+            overflow:hidden ;
            }
            .for_flower{
             position: relative;
+            overflow: hidden;
            }
            .cirql_unde_son{
               width: 100%;
