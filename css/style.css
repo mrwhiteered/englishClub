@@ -37,7 +37,8 @@
 .header{
      position: fixed;
      width: 100vw;
-     filter: drop-shadow(15px 22px 11px #FFF3E3);
+     filter: drop-shadow(15px 25px 11px #FFF3E3);
+     z-index: 10;
      
 }
 .header_wrap{
@@ -69,7 +70,7 @@ body{
     text-transform: uppercase;
     font-family: "Soyuz Grotesk";
     margin: 2px 25px 4px 25px;
-    font-size: 28px;
+    font-size: 30px;
     max-width: 230px;
     z-index: 1;
    
@@ -263,7 +264,37 @@ background: #FFF3E3;
     
     align-self: center;
 }
+.kartochka_img{
+  width: 100%;
+  
 
+}
+.kar_1{
+  display: block;
+  background-image: url("../img/kar_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 310px;
+  overflow: hidden;
+  max-height: 200px;
+  
+}
+.kar_2{
+  display: block;
+  background-image: url("../img/kar_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 310px;
+  max-height: 200px;
+}
+.kar_3{
+  display: block;
+  background-image: url("../img/kar_3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 310px;
+  max-height: 200px;
+}
 .foto{
     /* background-image: url('../img/foto_b_2.png'); */
    position:relative;
@@ -860,9 +891,11 @@ background: #FFF3E3;
             top: 0;
             opacity: 0.5;
             transform: rotate(-35deg);
+            overflow:hidden ;
            }
            .for_flower{
             position: relative;
+            overflow: hidden;
            }
            .cirql_unde_son{
               width: 100%;
@@ -898,7 +931,7 @@ background: #FFF3E3;
            
            .fl_last{
             position: absolute;
-            margin-top: -158px;
+            margin-top: -159px;
             z-index: -1;
            }
            a{
