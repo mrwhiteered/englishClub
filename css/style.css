@@ -435,6 +435,7 @@ background: #FFF3E3;
     position: relative;
     max-width: 214px;
     display: block;
+	   z-index:-1;
     
   }
   
