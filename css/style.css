@@ -38,6 +38,7 @@ ul{
    position: fixed;
    width: 100vw;
    filter: drop-shadow(15px 22px 11px #FFF3E3);
+  z-index: 12;
    
 }
 .header_wrap{
