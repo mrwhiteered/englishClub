@@ -443,7 +443,7 @@ position: absolute;
   position: absolute;
   left: 0;
   top: -355px;
-  z-index: -1;
+  z-index: -10;
  
 }
 
