@@ -415,7 +415,7 @@ background: #FFF3E3;
    .sofia{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
    }
 
    .maria{
@@ -424,9 +424,33 @@ background: #FFF3E3;
     justify-content: center;
    }
    .foto_g{
+   width: 100%;
+   border-radius: 100%;
+   margin: auto auto;
+   display: block;
+  
    
    }
-
+   .somi_foto{
+    position: relative;
+    max-width: 214px;
+    display: block;
+    
+  }
+  
+ 
+  .sonia_cirq {
+    position: absolute;
+    left: -14px;
+    top: -22px;
+    width: 116%;
+  }
+  .soni_cirq_ed{
+    transform: rotate(-100deg);
+    left: -20px;
+    top: -15px;
+    width: 116%;
+  }
 
    .process__title{
     color: #E3531F;
