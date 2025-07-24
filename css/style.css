@@ -1,273 +1,263 @@
 @font-face {
-    font-family: "Soyuz Grotesk";
-    src:
-      url("../fonts/Soyuz_Grotesk Bold.otf") format("otf"),
-      url("../fonts/Soyuz_Grotesk Bold.woff") format("woff");
-  }
-
-  @font-face {
-    font-family: "WixMade";
-    src:
-      url("../fonts/WixMadeforDisplay-Bold.ttf") format("ttf"),
-      url("../fonts/WixMadeforDisplay-Regular.ttf") format("ttf");
-  }
-
-  @font-face {
-    font-family: "Angst";
-    src:
-      url("../fonts/AngstVF.woff") format("woff"),
-      url("../fonts/AngstVF.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "Angst_2";
-    src:
-      url("../fonts/Angst-NormalSerif.otf") format("otf")
-     
-  }
-
-
-
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  font-family: "Soyuz Grotesk";
+  src:
+    url("../fonts/Soyuz_Grotesk Bold.otf") format("otf"),
+    url("../fonts/Soyuz_Grotesk Bold.woff") format("woff");
 }
-body{
-  display: none;
+
+@font-face {
+  font-family: "WixMade";
+  src:
+    url("../fonts/WixMadeforDisplay-Bold.ttf") format("ttf"),
+    url("../fonts/WixMadeforDisplay-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Angst";
+  src:
+    url("../fonts/AngstVF.woff") format("woff"),
+    url("../fonts/AngstVF.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Angst_2";
+  src:
+    url("../fonts/Angst-NormalSerif.otf") format("otf")
+   
+}
+
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 @media (max-width:768px){ 
 .header{
-     position: fixed;
-     width: 100vw;
-     filter: drop-shadow(15px 25px 11px #FFF3E3);
-     z-index: 10;
-     
+   position: fixed;
+   width: 100vw;
+   filter: drop-shadow(15px 22px 11px #FFF3E3);
+   
 }
 .header_wrap{
-    display: flex;
-     background-color: #FFF3E3 ;
-        align-items: center;
-        justify-content: space-around;
-        z-index: 12;
-        margin: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%; 
-         filter: drop-shadow(-15px 22px 11px #FFF3E3); 
+  display: flex;
+   background-color: #FFF3E3 ;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 12;
+      margin: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%; 
+       filter: drop-shadow(-15px 22px 11px #FFF3E3); 
 }
 
 
 body{
-    background: #FFF3E3;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    display: block;
-    
+  background: #FFF3E3;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  
 }
 .titel{
-    color: #8B8429;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Soyuz Grotesk";
-    margin: 2px 25px 4px 25px;
-    font-size: 30px;
-    max-width: 230px;
-    z-index: 1;
-   
-    
+  color: #8B8429;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Soyuz Grotesk";
+  margin: 2px 25px 4px 25px;
+  font-size: 32px;
+  max-width: 230px;
+  z-index: 1;
+ 
+  
+}
+.usual{
+  font-family: "Angst";
+  color: #8B8429;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 90%;
 }
 .title_box{
-    border: 1px solid #8B8429;
-    border-radius: 20px;
-    max-width: 300px;
-    text-align: center;
-    margin-right: 20px;
-    z-index: 2;
+  border: 1px solid #8B8429;
+  border-radius: 20px;
+  max-width: 300px;
+  text-align: center;
+  margin-right: 20px;
+  z-index: 2;
 background: #FFF3E3;
 
 }
 
 .burger{
-    border: none;
-	background-color: transparent;
-    z-index: 10;
+  border: none;
+background-color: transparent;
+  z-index: 10;
 
-    position: relative;
-    /* background-color: #E3531F; */
+  position: relative;
+  /* background-color: #E3531F; */
 
-   
+ 
 }
 
 
 
 .header__list_item{
-    font-family: "Soyuz Grotesk";
-    color: #E3531F;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: "Soyuz Grotesk";
+  color: #E3531F;
+  font-weight: 700;
+  font-size: 24px;
 }
 .header__list{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  
 }
 .flower{
-    position: absolute;
-    
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
+  position: absolute;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 .fl_1{
-    background-image: url('../img/group_header.png');
-    top: 0px;
-    right: 0;
-    width: 1015px;
-    height: 917px;
+  background-image: url('../img/group_header.png');
+  top: 0px;
+  right: 0;
+  width: 1015px;
+  height: 917px;
 }
 
 .about{
-   /* background-image: url('../img/Group\ 52\ 1.png'); */
-   position:relative;
-    width: 100vw;
-    min-height: 1100%;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    padding-bottom: 150px;
+ /* background-image: url('../img/Group\ 52\ 1.png'); */
+ position:relative;
+  width: 100vw;
+  min-height: 1100%;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-bottom: 150px;
 } 
 .abot_img{
-  position: absolute;
-        width: 100%;
-        height: 117%;
-        object-fit: cover;
-        margin-top: 82px;
-}
-.polaro_img{
-  width: 100%;
-  display: block;
-  height: 210px;
+position: absolute;
+      width: 100%;
+      height: 117%;
+      object-fit: cover;
+      margin-top: 82px;
 }
 
-.polaro_wrap{
-  margin: 0 auto;
-  max-width: 350px;
-  position: relative;
-}
-.polaro_fon{
-  position: absolute;
-  width: 100%;
- 
-}
+
+
 
 
 .nav{
-    display: block;
-    transform: translatex(150%);
-    background-image: url('../img/b_b_2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
- 
-    margin-top: 60px;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    transition: all 0.8s ease;
-    z-index: 12;
-    
-    
+  display: block;
+  transform: translatex(150%);
+  background-image: url('../img/b_b_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+  margin-top: 60px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.8s ease;
+  z-index: 12;
+  
+  
 }
 
 
 
 .burger_line{
-    background-color: #8B8429;
-    width: 40px;
-    height: 4px;
-    display: block;
-    z-index: 3;
-    margin-bottom: 10px;
-	transition: all 0.5s ease;
-    transform-origin: center center;
-    border-radius: 50px;
-   
+  background-color: #8B8429;
+  width: 40px;
+  height: 4px;
+  display: block;
+  z-index: 3;
+  margin-bottom: 10px;
+transition: all 0.5s ease;
+  transform-origin: center center;
+  border-radius: 50px;
+ 
 }
 .burger_line_3{
-    
-    margin-bottom: 0px;
+  
+  margin-bottom: 0px;
 }
 .burger_menu_on{
-    transform: translatex(0%);
-    transition: all 0.5s ease;
+  transform: translatex(0%);
+  transition: all 0.5s ease;
 }
 .active .burger_line_2{
-    background: transparent;
+  background: transparent;
 
 }
 .active .burger_line_1{
-    background-color: #E3531F;
-    transform:  translateY(15px) translateX(0px) rotate(45deg);
-    
+  background-color: #E3531F;
+  transform:  translateY(15px) translateX(0px) rotate(45deg);
+  
 }
 
 .active .burger_line_3{
-    background-color: #E3531F;
-    transform:  translateY(-13px) translateX(0px) rotate(-45deg);
+  background-color: #E3531F;
+  transform:  translateY(-13px) translateX(0px) rotate(-45deg);
 }
 .header__list{
-    margin-top: 30%;
-  text-align: center;
+  margin-top: 30%;
+text-align: center;
 
-    
-    font-size: 24px;
+  
+  font-size: 24px;
 }
 .header__list_item{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 
 .about__main_text{
-    font-family: "Soyuz Grotesk";
-    font-size: 20px;
-    font-weight: 700;
-    color: #8B8429;
-    z-index: 1;
-    width: 157px;
-    height: 86px;
-    margin: 0;
-    margin-left: 20px;
-   padding-top: 120px;
+  font-family: "Soyuz Grotesk";
+  font-size: 20px;
+  font-weight: 700;
+  color: #8B8429;
+  z-index: 1;
+  max-width: 157px;
+  height: 86px;
+  margin: 0;
+  margin-left: 20px;
+ padding-top: 120px;
 }
 
 .about__sub_text{
-    font-family: "Soyuz Grotesk";
-    font-size: 20px;
-    font-weight: 700;
-    color: #8B8429;
-    z-index: 1;
-    margin: 0;
-    margin-right: 20px;
+  font-family: "Soyuz Grotesk";
+  font-size: 20px;
+  font-weight: 700;
+  color: #8B8429;
+  z-index: 1;
+  margin: 0;
+  margin-right: 20px;
 
-    width: 143px;
-    height: 86px;
-    display: block;
-    margin: 210px 20px 0 auto;
+  width: 143px;
+  height: 86px;
+  display: block;
+  margin: 210px 20px 0 auto;
 
-    text-align: right;
+  text-align: right;
 }
 .foto__list{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-top: 50px;
 }
 .foto__item{
    
@@ -311,689 +301,722 @@ background: #FFF3E3;
   max-width: 310px;
   max-height: 200px;
 }
+.wrtt{
+  width: 300px;
+}
+
 .foto{
-    /* background-image: url('../img/foto_b_2.png'); */
-   position:relative;
-    width: 100vw;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 30PX;
-    
-    
+  /* background-image: url('../img/foto_b_2.png'); */
+ position:relative;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30PX;
+  
+  
 } 
 .foto_img{
-  position: absolute;
-        width: 100%;
-        height: 112%;
-        object-fit: cover;
-        margin-top: -10px;
-        z-index: -1;
+position: absolute;
+      width: 100%;
+      height: 115%;
+      object-fit: cover;
+      margin-top: -10px;
+      z-index: -1;
 }
-   .foto_text_1{
-    font-family: "Soyuz Grotesk";
-    font-size: 32px;
-    font-weight: 700;
-    color: #8B8429;
-    margin-left: 20%;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: normal;
-   }
+ .foto_text_1{
+  font-family: "Soyuz Grotesk";
+  font-size: 32px;
+  font-weight: 700;
+  color: #8B8429;
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: normal;
+ }
 
-   .foto_text_2{
-    font-family: "Soyuz Grotesk";
-    font-size: 32px;
-    font-weight: 700;
-    color: #8B8429;
-    margin-left: 55%;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: normal;
-   }
+ .foto_text_2{
+  font-family: "Soyuz Grotesk";
+  font-size: 32px;
+  font-weight: 700;
+  color: #8B8429;
+  margin-left: 55%;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: normal;
+ }
 
-   .foto_text_3{
-    font-family: "Soyuz Grotesk";
-    font-size: 32px;
-    font-weight: 700;
-    color: #8B8429;
-    margin-left: 60%;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: normal;
-    /* margin-top: -18px; */
-   }
+ .foto_text_3{
+  font-family: "Soyuz Grotesk";
+  font-size: 32px;
+  font-weight: 700;
+  color: #8B8429;
+  margin-left: 60%;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: normal;
+  /* margin-top: -18px; */
+ }
 
-   .author_cirql{
-    display: block;
-    margin-right: 0;
-    margin-left: auto;
-    margin-top: -100px;
-   }
+ .author_cirql{
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: -115px;
+  margin-bottom: 20px;
+  z-index: -2;
+ }
 
-   .sofia__name{
-    font-family: "Soyuz Grotesk";
-    font-size: 32px;
-    font-weight: 700;
-    color: #E3531F;
-    margin: 0;
-   }
-   .maria__name{
-    font-family: "Soyuz Grotesk";
-    font-size: 32px;
-    font-weight: 700;
-    color: #E3531F;
-    margin: 0;
-   }
-   .sofia__about{
-    font-family: "Wix Madefor Display", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #8B5E1B;
-    max-width: 110px;
-    margin: 0;
-   }
+ .sofia__name{
+  font-family: "Soyuz Grotesk";
+  font-size: 32px;
+  font-weight: 700;
+  color: #E3531F;
+  margin: 0;
+ }
+ .maria__name{
+  font-family: "Soyuz Grotesk";
+  font-size: 32px;
+  font-weight: 700;
+  color: #E3531F;
+  margin: 0;
+ }
+ .hart_foto{
+  width: 100%;
+  position: absolute;
+  right: -127px;
+  z-index: -2;
+  top: 0;
+  opacity: 0.5;
+  transform: rotate(-35deg);
+  overflow:hidden ;
+ }
+ .for_flower{
+  position: relative;
+  overflow: hidden;
+ }
+ .sofia__about{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8B5E1B;
+  max-width: 110px;
+  margin: 0;
+ }
 
-   .maria__about{
-    font-family: "Wix Madefor Display", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #8B5E1B;
-    max-width: 110px;
-    margin: 0;
-   }
-
-   .authors__img{
-    color: #E3531F;
-    font-size: 50px;
-    font-family: "Soyuz Grotesk";
-   
-    font-weight: 700;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-   }
-
-   .sofia{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-   }
-
-   .maria{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
-   .foto_g{
-   width: 100%;
-   border-radius: 100%;
-   margin: auto auto;
-   display: block;
-  
-   
-   }
-   .somi_foto{
-    position: relative;
-    max-width: 214px;
-    display: block;
-    z-index: -1;
-    
-  }
-  
+ .maria__about{
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8B5E1B;
+  max-width: 110px;
+  margin: 0;
+ }
+.authors{
+  margin-top: 40px;
+}
+.sofia_relation{
+  position: relative;
+ }
+ .authors__img{
+  color: #E3531F;
+  font-size: 50px;
+  font-family: "Angst";
  
-  .sonia_cirq {
-    position: absolute;
-    left: -14px;
-    top: -22px;
-    width: 116%;
-  }
-  .soni_cirq_ed{
-    transform: rotate(-100deg);
-    left: -20px;
-    top: -15px;
-    width: 116%;
-  }
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+ }
 
-   .process__title{
-    color: #E3531F;
-    font-size: 32px;
-    font-family: "Soyuz Grotesk";
-    margin-left: 20px;
-   }
+ .sofia{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+ }
+ .cirql_unde_son{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -355px;
+  z-index: -1;
+ 
+}
 
-   .process__item{
-    color: #8B5E1B;
-    font-family: "Wix Madefor Display", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+ .maria{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+ }
+ .foto_g{
+ width: 230px;
+ border-radius: 100%;
+ }
+ .wrap_to_img{
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+ }
+.son_wrapp_cirq{
+  position: absolute;
+        top: 50%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        width: 263px;
+}
+.mar_wrapp_cirq {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+.process{
+  margin-top: 90px;
+}
+
+ .process__title{
+  color: #E3531F;
+  font-size: 32px;
+  font-family: "Soyuz Grotesk";
+  margin-left: 20px;
+ }
+
+ .process__item{
+  color: #8B5E1B;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  
+  max-width: 300px;
+  background: url('../img/li.png');
+  background-repeat: no-repeat;
+
+  margin-left: 20px;
+  padding-left: 30px;
+
+  margin-bottom: 20px;
+ }
+
+ 
+  /* .trxt_bloc{
+      display: flex;
+      justify-content: center;
+  } */
+
+  .process__text_bet{
+      font-size: 20px;
+      font-family: "Soyuz Grotesk";
+      font-weight: 700;
+      color: #8B5E1B;
+      max-width: 300px;
+      display: block;
+      margin-left: 50px;
+     }
+      .process__text_bet_sub{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          align-self: flex-end;
+      }
+      .polaro{
+          display: block;
+          margin: 0 auto;
+      }
+
+      .process__new_them{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          
+          max-width: 300px;
+          background: url('../img/li.png');
+          background-repeat: no-repeat;
+      
+          margin-left: 20px;
+          padding-left: 30px;
+      
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+      }
+
+      .maria_do{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          
+          max-width: 300px;
+          background: url('../img/li.png');
+          background-repeat: no-repeat;
+      
+          margin-left: 20px;
+          padding-left: 30px;
+      
+         
+      }
+
+      .offered_theme{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #FFF3E3;
+          background-color: #8B8429;
+
+          border-radius: 20px;
+          padding: 5px 25px 10px 25px;
+
+          border: none;
+          display: block;
+          margin: 0 auto;
+
+          margin-bottom: 30px;
+      }
+
+      .foto_fon{
+         display: block;
+         margin: 0 auto;
+          max-width: 300px;
+        
+      }
+      .flower_wrap{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 75px;
+      }
+      .fl_back{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        width: 100%;
+      }
+      .details{
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #E3531F;
+      }
+
+      .svg_container {
+          position: relative;
+          width: 100%;
+          max-width: 600px;
+          margin-top: -110px;
+          z-index: -1;
+          /* margin: 150vh auto 100vh; Демонстрация скролла */
+        }
     
-    max-width: 300px;
-    background: url('../img/li.png');
-    background-repeat: no-repeat;
-
-    margin-left: 20px;
-    padding-left: 30px;
-
-    margin-bottom: 20px;
-   }
-
-   
-    /* .trxt_bloc{
-        display: flex;
-        justify-content: center;
-    } */
-
-    .process__text_bet{
-        font-size: 20px;
-        font-family: "Soyuz Grotesk";
-        font-weight: 700;
-        color: #8B5E1B;
-        max-width: 300px;
-        display: block;
-        margin-left: 50px;
-       }
-        .process__text_bet_sub{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            align-self: flex-end;
+        .details {
+          position: absolute;
+           top: 50%; 
+           left: 50%; 
+          transform: translate(-50%, -50%); 
+          font-size: 32px;
+          color: #E3531F;
+          font-weight: bold;
+          pointer-events: none;
+          z-index: 2;
+          margin: 0;
         }
-        .polaro{
-            display: block;
-            margin: 0 auto;
+    
+        /* Эффект "рисования" линии */
+        /* .svg-path {
+          fill: transparent;
+          stroke: #E3531F;
+          stroke-width: 30;
+          z-index: 1;
+          stroke-dasharray: 3000;
+          stroke-dashoffset: 3000;
+          transition: stroke-dashoffset 2.5s ease-in, fill 1s ease-out 2s;
         }
+    
+        .svg-path.drawn {
+          stroke-dashoffset: 0;
+           /* fill: #E3531F;  
+        }
+    */
+        svg {
+          max-width: 170px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        } 
 
-        .process__new_them{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            
-            max-width: 300px;
-            background: url('../img/li.png');
-            background-repeat: no-repeat;
-        
-            margin-left: 20px;
-            padding-left: 30px;
-        
-            margin-bottom: 20px;
-            padding-bottom: 10px;
+        .time__item{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #8B8429;
+          max-width: 225px;
+          text-align: right;
+          padding-bottom: 30px;
+          
+        }
+        .time__list{
+          margin-left: 20px;
+          margin-bottom: 50px;
         }
 
-        .maria_do{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            
-            max-width: 300px;
-            background: url('../img/li.png');
-            background-repeat: no-repeat;
-        
-            margin-left: 20px;
-            padding-left: 30px;
-        
-           
+        .diteils_circ{
+          position: absolute;
+          right: 0;
+          z-index: -1;
         }
 
-        .offered_theme{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #FFF3E3;
-            background-color: #8B8429;
-
-            border-radius: 20px;
-            padding: 5px 25px 10px 25px;
-
-            border: none;
-            display: block;
-            margin: 0 auto;
-
-            margin-bottom: 30px;
+        .waywe{
+          display: block;
+          margin: 0 auto;
         }
 
-        .foto_fon{
-            margin-top: -50px;
-            width: 100%;
-            height: 100%;
-        }
-        
-        .details{
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #E3531F;
+        .time__text{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          text-align: center;
+          max-width: 330px;
+          display: block;
+          margin: 10px auto;
         }
 
-        .svg_container {
-            position: relative;
-            width: 100%;
-            max-width: 600px;
-            margin-top: -110px;
-            z-index: -1;
-            /* margin: 150vh auto 100vh; Демонстрация скролла */
-          }
+        .approach__title{
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #E3531F;
+          max-width: 175px;
+          margin: 0 50px 0 auto;
+          display: block;
+        }
+
+        .approach{
+          margin-top: 50px;
+        }
+        .approach__line{
+          display: block;
+          margin: 0 20px 0 auto;
+        }
+
+        .approach_circ{
+          position: absolute;
+          margin-top: -50px;
+          z-index: -1;
+        }
+
+        .approach__text{
+          font-family: "Wix Madefor Display", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color:#8B8429 ;
+          margin-top: 70px;
+          max-width: 320px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto
+        }
+
+        .approach__orange{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #E3531F;
+          margin-right: 20px;
+        }
+
+        .approach__text_title{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #8B8429;
+        }
+        .and{
+          font-size: 34px;
+          color: #E3531F;
+          font-family: "Angst";
+          margin: 0 10px;
+          font-weight: 100;
+
+        }
+
+        .approach__text_lesson{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          color: #8B8429;
+          display: block;
+          margin: 0 auto;
+          max-width: 320px;
+          padding-bottom: 20px;
+        }
+        .lessons_no{
+          color:#E3531F ;
+        }
+
+        .approach__lessons_sub{
+          font-family: "Wix Madefor Display", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color:#8B5E1B ;
+          max-width: 320px;
+          display: block;
+          margin: 0 auto;
+          /* padding-bottom: 70px; */
+        }
+        .krug_right_target{
+          position: absolute;
+          right: 0;
+          margin-bottom: 10px;
+          z-index: -1;
+         
+        }
+        .target__title{
+          padding-top: 60px;
+
+          color: #E3531F;
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+          margin-left: 20px;
+          max-width: 320px;
+        }
+
+        .target__text{
+          color: #8B5E1B;
+
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          font-weight: 700;
+
+          max-width: 200px;
+
+          margin-left: 5px;
+
+          
+        }
+
+        .target_box{
+          display: flex;
+          margin-left: 20px;
+          
+        }
+
+        .table_girls{
+          display: block;
+          margin: 0 auto;
+          /* margin-top: 20px; */
+          z-index: 2;
+
+          width: 100%;
+          
+        }
+.foto_img{}
+
+        .table_left{
+          position: absolute;
+          margin-top: -75px;
+          z-index: -1;
+        }
+
+        .table_right{
+          position: absolute;
+          right: 0;
+          margin-top: 65px;
+        }
       
-          .details {
-            position: absolute;
-             top: 50%; 
-             left: 50%; 
-            transform: translate(-50%, -50%); 
-            font-size: 32px;
-            color: #E3531F;
-            font-weight: bold;
-            pointer-events: none;
-            z-index: 2;
-            margin: 0;
-          }
+        .price{
+          padding-top: 150px;
+        }
+
+        .price__title{
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          color: #E3531F;
+          margin-left: 20px;
+          margin-bottom: 0;
+        }
+        .price_waywe{
+          margin-left: 15px;
+          margin-top: -10px;
+        }
+
+        .price__item{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          color: #8B8429;
+          margin-left: 20px;
+        }
+        .price__item_or{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          color: #E3531F;
+          
+        }
+        .price__item_brown{
+          font-family: "Wix Madefor Display", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color:#8B5E1B ;
+        }
+        .togls{
+          width: 100%;
+          margin-top: 40px;
+         
+        }
+
+        .regular__title{
+          font-size: 24px;
+          font-family: "Soyuz Grotesk";
+          color: #E3531F;
+          margin-left: 20px;
+          margin-bottom: 0;
+        }
+        .reguler_sub{
+          font-family: "Wix Madefor Display", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color:#8B5E1B ;
+          text-align: right;
+          margin-top: 0;
+          margin-right: 20px;
+        }
+
+        .regular__item{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          
+          max-width: 300px;
+          background: url('../img/li.png');
+          background-repeat: no-repeat;
       
-          /* Эффект "рисования" линии */
-          /* .svg-path {
-            fill: transparent;
-            stroke: #E3531F;
-            stroke-width: 30;
-            z-index: 1;
-            stroke-dasharray: 3000;
-            stroke-dashoffset: 3000;
-            transition: stroke-dashoffset 2.5s ease-in, fill 1s ease-out 2s;
-          }
+          margin-left: 50px;
+          padding-left: 30px;
       
-          .svg-path.drawn {
-            stroke-dashoffset: 0;
-             /* fill: #E3531F;  
-          }
-      */
-          svg {
-            max-width: 170px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-          } 
+          margin-bottom: 20px;
+         }
 
-          .time__item{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #8B8429;
-            max-width: 225px;
-            text-align: right;
-            padding-bottom: 30px;
-            
-          }
-          .time__list{
-            margin-left: 20px;
-            margin-bottom: 50px;
-          }
+         .reg_cirq{
+          position: absolute;
+          left: 0;
+          z-index: -1;
+          
+         }
+         .reg_Item_last{
+          margin-bottom: 0;
+         }
 
-          .diteils_circ{
-            position: absolute;
-            right: 0;
-            z-index: -1;
-          }
+         .sign__title{
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          color: #E3531F;
+          margin-right: 20px;
+          text-align: right;
+          margin-top: 150px;
+         }
+         .sign__text{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          margin-left: 20px;
+          max-width: 215px;
+          margin-bottom: 0;
+         }
+         .wayw_under{
+          margin-left: 20px;
+         }
+         .form_cirq{
+          position: absolute;
+          right: 0;
+          z-index: -1;
+         }
+         .footer__title{
+          font-size: 32px;
+          font-family: "Soyuz Grotesk";
+          color: #8B8429;
+          margin-left: 20px;
+         }
+         .footer__item_p{
+          color: #8B5E1B;
+          font-family: "Wix Madefor Display", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          
+          max-width: 300px;
+          background: url('../img/li.png');
+          background-repeat: no-repeat;
+      
+          margin-left: 50px;
+          padding-left: 30px;
+      
+          margin-bottom: 20px;
+          line-height: 1.4;
+         }
+         .footer__item_btn{
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+          color: #FFF3E3;
+          background: #E3531F;
+          padding: 2px 10px 5px 10px;
+          border-radius: 20px;
+         }
+         .maria_last{
+          color: #E3531F;
+          font-size: 20px;
+          font-family: "Soyuz Grotesk";
+         }
+         .final_foto{
+          display: block;
+          margin: 0 0 0 auto;
+         }
+         
+         .fl_last{
+          position: absolute;
+          margin-top: -140px;
+          z-index: -1;
+         }
+         .polaro_wrap{
+          margin: 0 auto;
+          max-width: 350px;
+          position: relative;
+        }
+        .polaro_fon{
+          position: absolute;
+          width: 100%;
+         
+        }
+        .polaro_img{
+          width: 100%;
+          display: block;
+          height: 210px;
+        }
+         a{
+          text-decoration: none;
+         color: #E3531F;
+         }
 
-          .waywe{
-            display: block;
-            margin: 0 auto;
-          }
-
-          .time__text{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            text-align: center;
-            max-width: 330px;
-            display: block;
-            margin: 10px auto;
-          }
-
-          .approach__title{
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #E3531F;
-            max-width: 175px;
-            margin: 0 50px 0 auto;
-            display: block;
-          }
-
-          .approach{
-            margin-top: 50px;
-          }
-          .approach__line{
-            display: block;
-            margin: 0 20px 0 auto;
-          }
-
-          .approach_circ{
-            position: absolute;
-            margin-top: -50px;
-            z-index: -1;
-          }
-
-          .approach__text{
-            font-family: "Wix Madefor Display", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            color:#8B8429 ;
-            margin-top: 70px;
-            max-width: 320px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-          }
-
-          .approach__orange{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #E3531F;
-            margin-right: 20px;
-          }
-
-          .approach__text_title{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #8B8429;
-          }
-          .and{
-            font-size: 34px;
-            color: #E3531F;
-            font-family: "Angst";
-            margin: 0 10px;
-            font-weight: 100;
-
-          }
-
-          .approach__text_lesson{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            color: #8B8429;
-            display: block;
-            margin: 0 auto;
-            max-width: 320px;
-            padding-bottom: 50px;
-          }
-          .lessons_no{
-            color:#E3531F ;
-          }
-
-          .approach__lessons_sub{
-            font-family: "Wix Madefor Display", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            color:#8B5E1B ;
-            max-width: 320px;
-            display: block;
-            margin: 0 auto;
-            /* padding-bottom: 70px; */
-          }
-          .krug_right_target{
-            position: absolute;
-            right: 0;
-            margin-bottom: 10px;
-            z-index: -1;
-           
-          }
-          .target__title{
-            padding-top: 20px;
-
-            color: #E3531F;
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-            margin-left: 20px;
-            max-width: 320px;
-          }
-
-          .target__text{
-            color: #8B5E1B;
-
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            font-weight: 700;
-
-            max-width: 200px;
-
-            margin-left: 5px;
-
-            
-          }
-
-          .target_box{
-            display: flex;
-            margin-left: 20px;
-            
-          }
-
-          .table_girls{
-            display: block;
-            margin: 0 auto;
-            margin-top: 20px;
-            z-index: 2;
-            
-          }
-
-          .table_left{
-            position: absolute;
-            margin-top: -75px;
-            z-index: -1;
-          }
-
-          .table_right{
-            position: absolute;
-            right: 0;
-            margin-top: 65px;
-          }
-        
-          .price{
-            padding-top: 150px;
-          }
-
-          .price__title{
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            color: #E3531F;
-            margin-left: 20px;
-            margin-bottom: 0;
-          }
-          .price_waywe{
-            margin-left: 15px;
-            margin-top: -10px;
-          }
-
-          .price__item{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            color: #8B8429;
-            margin-left: 20px;
-          }
-          .price__item_or{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            color: #E3531F;
-            
-          }
-          .price__item_brown{
-            font-family: "Wix Madefor Display", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            color:#8B5E1B ;
-          }
-          .togls{
-            width: 100%;
-            margin-top: 40px;
-           
-          }
-
-          .regular__title{
-            font-size: 24px;
-            font-family: "Soyuz Grotesk";
-            color: #E3531F;
-            margin-left: 20px;
-            margin-bottom: 0;
-          }
-          .reguler_sub{
-            font-family: "Wix Madefor Display", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            color:#8B5E1B ;
-            text-align: right;
-            margin-top: 0;
-            margin-right: 20px;
-          }
-
-          .regular__item{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            
-            max-width: 300px;
-            background: url('../img/li.png');
-            background-repeat: no-repeat;
-        
-            margin-left: 50px;
-            padding-left: 30px;
-        
-            margin-bottom: 20px;
-           }
-
-           .reg_cirq{
-            position: absolute;
-            left: 0;
-            z-index: -1;
-            
-           }
-           .reg_Item_last{
-            margin-bottom: 0;
-           }
-
-           .sign__title{
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            color: #E3531F;
-            margin-right: 20px;
-            text-align: right;
-            margin-top: 150px;
-           }
-           .sign__text{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            margin-left: 20px;
-            max-width: 215px;
-            margin-bottom: 0;
-           }
-           .wayw_under{
-            margin-left: 20px;
-           }
-           .form_cirq{
-            position: absolute;
-            right: 0;
-            z-index: -1;
-           }
-           .footer__title{
-            font-size: 32px;
-            font-family: "Soyuz Grotesk";
-            color: #8B8429;
-            margin-left: 20px;
-           }
-           .footer__item_p{
-            color: #8B5E1B;
-            font-family: "Wix Madefor Display", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            
-            max-width: 300px;
-            background: url('../img/li.png');
-            background-repeat: no-repeat;
-        
-            margin-left: 50px;
-            padding-left: 30px;
-        
-            margin-bottom: 20px;
-            line-height: 1.4;
-           }
-           .sofia_relation{
-            position: relative;
-           }
-           .hart_foto{
-            width: 100%;
-            position: absolute;
-            right: -127px;
-            z-index: -2;
-            top: 0;
-            opacity: 0.5;
-            transform: rotate(-35deg);
-            overflow:hidden ;
-           }
-           .for_flower{
-            position: relative;
-            overflow: hidden;
-           }
-           .cirql_unde_son{
-              width: 100%;
-              position: absolute;
-              left: 0;
-              top: -355px;
-              z-index: -1;
-             
-           }
-           .footer_item_prelast{
-            margin-bottom: 0;
-           }
-           .footer__item_last{
-            background: transparent;
-            margin-top: 0;
-           }
-           .footer__item_btn{
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-            color: #FFF3E3;
-            background: #E3531F;
-            padding: 2px 10px 5px 10px;
-            border-radius: 20px;
-           }
-           .maria_last{
-            color: #E3531F;
-            font-size: 20px;
-            font-family: "Soyuz Grotesk";
-           }
-           .final_foto{
-            display: block;
-            margin: 0 0 0 auto;
-           }
-           
-           .fl_last{
-            position: absolute;
-            margin-top: -159px;
-            z-index: -1;
-           }
-           a{
-            text-decoration: none;
-           color: #E3531F;
-           }
-
-           /* Убирает голубую подсветку на тач-устройствах */
+         /* Убирает голубую подсветку на тач-устройствах */
 * {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-tap-highlight-color: transparent;
 }
 a {
-  -webkit-tap-highlight-color: transparent; /* Для мобильных устройств */
-  outline: none; /* Убирает outline при фокусе */
-  text-decoration: none; /* Опционально - убирает подчеркивание */
+-webkit-tap-highlight-color: transparent; /* Для мобильных устройств */
+outline: none; /* Убирает outline при фокусе */
+text-decoration: none; /* Опционально - убирает подчеркивание */
 }
 
 a:active, a:focus {
-  background-color: transparent !important;
-  color: inherit !important;
+background-color: transparent !important;
+color: inherit !important;
 }
 }
